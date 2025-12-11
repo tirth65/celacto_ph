@@ -717,7 +717,7 @@ const AboutPage = () => {
       <section className="relative pt-32 pb-24 md:pt-40 md:pb-32 flex items-center justify-center overflow-hidden min-h-[600px]">
         <div className="absolute inset-0">
           <img 
-            src="/public/images/about-hero.jpg" 
+            src="/images/about-hero.jpg" 
             alt="Pharmaceutical background"
             className="w-full h-full object-cover"
           />
@@ -787,7 +787,7 @@ const AboutPage = () => {
               className="about-reveal relative rounded-2xl overflow-hidden shadow-2xl"
             >
               <img
-                src="/public/images/about1.jpg" 
+                src="/images/about1.jpg" 
                 alt="Pharmaceutical care"
                 className="w-[600px] h-[450px] rounded-2xl"
               />
