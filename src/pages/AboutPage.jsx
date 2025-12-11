@@ -538,8 +538,6 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { Award, CheckCircle, Eye, Heart, Phone, Shield, Target, TrendingUp, Truck, Users, Zap } from "lucide-react";
-import about1 from "../about1.jpg";
-
 
 const stats = [
   { number: "15+", label: "Years of service", icon: Award },
@@ -719,7 +717,7 @@ const AboutPage = () => {
       <section className="relative pt-32 pb-24 md:pt-40 md:pb-32 flex items-center justify-center overflow-hidden min-h-[600px]">
         <div className="absolute inset-0">
           <img 
-            src="images/about-hero.jpg" 
+            src="/images/about-hero.jpg" 
             alt="Pharmaceutical background"
             className="w-full h-full object-cover"
           />
