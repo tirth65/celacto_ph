@@ -538,6 +538,8 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { Award, CheckCircle, Eye, Heart, Phone, Shield, Target, TrendingUp, Truck, Users, Zap } from "lucide-react";
+import about1 from "../assets/about1.jpg";
+
 
 const stats = [
   { number: "15+", label: "Years of service", icon: Award },
@@ -797,11 +799,17 @@ const AboutPage = () => {
   ref={aboutImageRef}
   className="about-reveal relative rounded-2xl overflow-hidden shadow-2xl max-w-[600px]"
 >
-  <img
+  {/* <img
     src="/images/about1.jpg"
     alt="Pharmaceutical care"
     className="w-full h-auto object-cover rounded-2xl"
-  />
+  /> */}
+  <img
+  src={about1}
+  alt="Pharmaceutical care"
+  className="w-full h-auto rounded-2xl"
+/>
+
 
   {/* LIGHT GRADIENT SO IMAGE IS VISIBLE */}
   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
