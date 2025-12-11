@@ -782,7 +782,7 @@ const AboutPage = () => {
       <section className="py-24 bg-gradient-to-br from-[#FAF7F0] to-[#F5F1E8]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div 
+            {/* <div 
               ref={aboutImageRef}
               className="about-reveal relative rounded-2xl overflow-hidden shadow-2xl"
             >
@@ -792,7 +792,21 @@ const AboutPage = () => {
                 className="w-[600px] h-[450px] rounded-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#769582]/20 to-transparent"></div>
-            </div>
+            </div> */}
+            <div 
+  ref={aboutImageRef}
+  className="about-reveal relative rounded-2xl overflow-hidden shadow-2xl max-w-[600px]"
+>
+  <img
+    src="/images/about1.jpg"
+    alt="Pharmaceutical care"
+    className="w-full h-auto object-cover rounded-2xl"
+  />
+
+  {/* LIGHT GRADIENT SO IMAGE IS VISIBLE */}
+  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+</div>
+
 
             <div 
               ref={aboutTextRef}
