@@ -538,7 +538,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { Award, CheckCircle, Eye, Heart, Phone, Shield, Target, TrendingUp, Truck, Users, Zap } from "lucide-react";
-import about1 from "..//about1.jpg";
+import about1 from "../about1.jpg";
 
 
 const stats = [
